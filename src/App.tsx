@@ -5,8 +5,7 @@ import TextArea from "./Components/TextArea";
 function App() {
   const [CSV, setCSV] = useState<string>(`Name,email,phone number,address
 Example,example@example.com,555-555-5555,Example Address
-Example2,example2@example.com,555-555-5551,Example2 Address
-`);
+Example2,example2@example.com,555-555-5551,Example2 Address`);
   const [tableData, setTableData] = useState<any>({});
   const [error, setError] = useState<string>();
 
