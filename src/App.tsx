@@ -34,8 +34,8 @@ Example2,example2@example.com,555-555-5551,Example2 Address`);
       return acc;
     }, {} as any);
 
-    !!error ? setTableData(data) : setTableData(data);
-  }, [CSV, error]);
+    setTableData(data);
+  }, [CSV]);
 
   return (
     <div className="App">
