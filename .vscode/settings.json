@@ -1,0 +1,20 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "javascript.format.enable": false,
+    "material-icon-theme.activeIconPack": "react_redux",
+    "cSpell.words": [
+        "utilitybills"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+
+    ],
+ 
+}
