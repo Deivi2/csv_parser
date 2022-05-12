@@ -41,11 +41,7 @@ Example2,example2@example.com,555-555-5551,Example2 Address`);
     <div className="App">
       <TextArea handleTextInput={handleTextInput} value={CSV} />
       <button onClick={startParseTable}>Parse CSV</button>
-      {!!error ? (
-        <div style={{ color: "red" }}>{error}</div>
-      ) : (
-        <Table tableData={tableData} />
-      )}
+      <Table tableData={tableData} error={error} />
     </div>
   );
 }

@@ -2,9 +2,12 @@ import React, { FC } from "react";
 
 interface IProps {
   tableData: any;
+  error?: string;
 }
 
 const Table: FC<IProps> = (props) => {
+  if (!!props.error) return <div style={{ color: "red" }}>{props.error}</div>;
+
   return (
     <table>
       <thead>
